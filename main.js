@@ -1,14 +1,14 @@
 let str1="Uwielbiam JavaScript";
 let str2="Jestem świetnym programistą";
-function KtoryDluzszy(str1, str2)
+function whichlonger(str1, str2)
 {
-    if(str1.lenght>str2.length)
+    if(str1.length>str2.length)
     {
-        console.log(str1.length);
+        console.log(str1);
     }
     else
     {
-        console.log(str2.length);
+        console.log(str2);
     }
 }
-KtoryDluzszy(str1, str2);
+whichlonger(str1, str2);
